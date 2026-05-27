@@ -24,7 +24,7 @@ pip install -e .
 - Pixel-level distribution comparison
 - GMM fitting and KL divergence (2D, 1D)
 - HOG feature extraction and visualization
-- SIFT keypoint extraction, matching and visualization
+- SIFT keypoint extraction and visualization
 - Histogram and KL matrix plotting
 
 ## Quick Start
@@ -99,7 +99,7 @@ s2r.plot_histograms(
 |---|---|
 | `extract_sift(image)` | Extract SIFT keypoints and descriptors |
 | `collect_sift_descriptors(images, frames)` | Collect SIFT descriptors across frames |
-| `match_sift(image_real, image_sim)` | Match SIFT descriptors between two images |
+| `visualize_sift_keypoints(images_dict, hog_size, title)` | Visualize SIFT keypoints for multiple images side by side |
 
 ### Plotting
 | Function | Description |
