@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sim2realgap"
+version = "0.1.0"
+description = "A package for measuring the sim-to-real gap in microscopy image simulations"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "David K. Grundtvig", email = "qjs209@alumni.ku.dk" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "scikit-image",
+    "Pillow",
+]
+
+[project.urls]
+Homepage = "https://github.com/Qsj209/sim2realgap"
+Repository = "https://github.com/Qjs209/sim2realgap"
+
+[tool.setuptools]
+packages = ["sim2realgap"]
