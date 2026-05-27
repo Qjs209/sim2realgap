@@ -20,7 +20,6 @@ pip install -e .
 
 ## Features
 
-- Load CTC-format tiff stacks
 - Per-cell feature extraction (area, mean intensity, texture/std)
 - Pixel-level distribution comparison
 - GMM fitting and KL divergence (2D, 1D)
