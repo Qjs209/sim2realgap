@@ -7,7 +7,7 @@ Sim2RealGapTest provides tools to quantitatively and visually compare real micro
 ## Installation
 
 ```bash
-pip install sim2realgaptest
+pip install sim2realgap
 ```
 
 Or install from source:
