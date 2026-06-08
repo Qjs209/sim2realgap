@@ -2,7 +2,7 @@
 
 A Python package for measuring the simulation-to-real gap in microscopy image simulations.
 
-Sim2RealGapTest provides tools to quantitatively and visually compare real microscopy images against simulated ones, using a range of feature extraction and statistical comparison methods.
+Sim2RealGap provides tools to quantitatively and visually compare real microscopy images against simulated ones, using a range of feature extraction and statistical comparison methods.
 
 ## Installation
 
